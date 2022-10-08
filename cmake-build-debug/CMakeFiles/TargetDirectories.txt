@@ -1,3 +1,0 @@
-D:/04. Studia/NAI/cmake-build-debug/CMakeFiles/NAI.dir
-D:/04. Studia/NAI/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/04. Studia/NAI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
