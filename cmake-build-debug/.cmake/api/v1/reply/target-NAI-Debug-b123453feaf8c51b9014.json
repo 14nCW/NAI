@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "NAI"
+			"path" : "NAI.exe"
+		},
+		{
+			"path" : "NAI.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk"
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g"
 				}
 			],
 			"language" : "CXX",
@@ -68,12 +68,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "NAI",
-	"nameOnDisk" : "NAI",
+	"nameOnDisk" : "NAI.exe",
 	"paths" : 
 	{
 		"build" : ".",
