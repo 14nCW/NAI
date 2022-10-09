@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NAI.dir/main.cpp.obj"
-  "CMakeFiles/NAI.dir/main.cpp.obj.d"
-  "NAI.exe"
-  "NAI.exe.manifest"
+  "CMakeFiles/NAI.dir/main.cpp.o"
+  "CMakeFiles/NAI.dir/main.cpp.o.d"
+  "NAI"
   "NAI.pdb"
-  "libNAI.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
