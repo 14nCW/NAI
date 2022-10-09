@@ -8,82 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"/>
+				<Option working_dir="D:/04. Studia/NAI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NAI">
-				<Option output="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug/NAI" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"/>
+				<Option output="D:/04. Studia/NAI/cmake-build-debug/NAI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/04. Studia/NAI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 NAI"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 NAI"/>
+					<CompileFile command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NAI/fast">
-				<Option output="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug/NAI" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"/>
+				<Option output="D:/04. Studia/NAI/cmake-build-debug/NAI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/04. Studia/NAI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 NAI/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 NAI/fast"/>
+					<CompileFile command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"/>
+				<Option working_dir="D:/04. Studia/NAI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"/>
+				<Option working_dir="D:/04. Studia/NAI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ian/Documents/OneDrive\ -\ Polsko-Japońska\ Akademia\ Technik\ Komputerowych/01.\ STUDIA/01.\ semestry/5\ semestr\ 5/01.\ NAI/02.\ Ćwiczenia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;D:/04. Studia/NAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/main.cpp">
+		<Unit filename="D:/04. Studia/NAI/main.cpp">
 			<Option target="NAI"/>
 		</Unit>
-		<Unit filename="/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/CMakeLists.txt">
+		<Unit filename="D:/04. Studia/NAI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
