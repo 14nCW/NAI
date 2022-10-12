@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
     };
 
     format["sin"] = [](map<string, int> map) {
-        double x = map.at("pierwsza")*1.0;
+        double x = map.at("pierwsza");
         return sin(x);
     };
 
