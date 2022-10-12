@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
         auto selected_f = argumenty.at(1);
         wypisz(cyfry, format.at(selected_f));
     } catch (std::out_of_range aor) {
-        cout << "Niestety. Podales zle argumenty." << endl << "Poprawna forma argumentowania:" << endl << "<add> <int x> <int y>"<< endl << "<mod> <int x> <int y>"<< endl << "<sin> <int x>";
+        cout << "Niestety, podales zle argumenty." << endl << "Poprawna forma argumentowania:" << endl << "<add> <int x> <int y>"<< endl << "<mod> <int x> <int y>"<< endl << "<sin> <int x>";
         cout << endl;
     }
     return 0;
