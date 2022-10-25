@@ -7,23 +7,15 @@
 using domain_t = std::vector<double>;
 std::random_device rd;
 std::mt19937 mt_generator(rd());
-domain_t hill_climbing(const std::function<double(domain_t)> &f, domain_t minimal_d, domain_t maximal_d, int max_iterations) {
-    domain_t current_p(minimal_d.size());
-    for (int i = 0; i < minimal_d.size(); i++) {
-        std::uniform_real_distribution<double> dist(minimal_d[i], maximal_d[i]);
-        current_p[i] = dist(mt_generator);
-    }
+
+domain_t hill_climbing(const std::function<double(domain_t)> &f, domain_t start_point, std::function<std::vector<domain_t>()> get_close_points, int max_iterations) {
+    domain_t best_p = start_point;
     for (int iteration = 0; iteration < max_iterations; iteration++) {
-        domain_t new_p(minimal_d.size());
-        for (int i = 0; i < minimal_d.size(); i++) {
-            std::uniform_real_distribution<double> dist(-1.0/128.0, 1.0/128.0);
-            new_p[i] = current_p[i] + dist(mt_generator);
-        }
-        if (f(current_p) > f(new_p)) {
-            current_p = new_p;
-        }
+        auto close_points = get_close_points();
+        auto best_neighbour = *std::min_element(close_points.begin(), close_points.end(), [f](auto a, auto b){return f(a) > f(b);});
+        if (f(best_neighbour) < f(best_p)) best_p = best_neighbour;
     }
-    return current_p;
+    return best_p;
 }
 
 int main(int argc, char **argv) {
@@ -45,10 +37,16 @@ int main(int argc, char **argv) {
         return (pow(x[0],4) - (16 * pow(x[0], 2)) + 5 * x[0])/2;
     };
 
-    auto best2 = hill_climbing(hill_formatery.at(argv[1]), {std::stod(argv[2])},{std::stod(argv[3])},10000);
-    std::cout << "best x = " << best2[0] << std::endl;
+    auto get_random_point = [=]() -> domain_t {
+        std::uniform_real_distribution<double>distr(std::stod(argv[2]), std::stod(argv[3]));
+        return {distr(mt_generator), distr(mt_generator)};
+    };
+    auto get_close_points_random = [=]() -> std::vector<domain_t> {
+        std::uniform_real_distribution<double>distr(std::stod(argv[2]),std::stod(argv[3]));
+        return {{distr(mt_generator), distr(mt_generator)}};
+    };
+
+    auto best1 = hill_climbing(hill_formatery.at(argv[1]), get_random_point(), get_close_points_random,1000000);
+    std::cout << "best x = " << best1[0] << std::endl;
     return 0;
-
-
-
 }
