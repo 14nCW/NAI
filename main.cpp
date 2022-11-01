@@ -3,6 +3,7 @@
 #include <functional>
 #include <random>
 #include <map>
+#include <chrono>
 
 using domain_t = std::vector<double>;
 std::random_device rd;
@@ -46,7 +47,12 @@ int main(int argc, char **argv) {
         return {{distr(mt_generator), distr(mt_generator)}};
     };
 
-    auto best1 = hill_climbing(hill_formatery.at(argv[1]), get_random_point(), get_close_points_random,1000000);
-    std::cout << "best x = " << best1[0] << std::endl;
+    for (int i = 0; i < 20; i++) {
+        auto start = std::chrono::high_resolution_clock::now();
+        auto best1 = hill_climbing(hill_formatery.at(argv[1]), get_random_point(), get_close_points_random, 1000000);
+        auto finish = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = finish - start;
+        std::cout << "best x = " << best1[0] << " " << elapsed.count() << std::endl;
+    }
     return 0;
 }
