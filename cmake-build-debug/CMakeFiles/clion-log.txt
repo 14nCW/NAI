@@ -1,0 +1,4 @@
+"/Users/ian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/ian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/bin/cc -G Ninja -S "/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI" -B "/Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/ian/Documents/OneDrive - Polsko-Japońska Akademia Technik Komputerowych/01. STUDIA/01. semestry/5 semestr 5/01. NAI/02. Ćwiczenia/NAI/cmake-build-debug
