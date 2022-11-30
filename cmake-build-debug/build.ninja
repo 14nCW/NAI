@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ocvdemo
+# Project: NAI
 # Configurations: Debug
 # =============================================================================
 
@@ -39,47 +39,47 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/s23538/Documents/NAI-Lab02/NAI/cmake-build-debug/
+cmake_ninja_workdir = D$:/04.$ Studia/NAI/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ocvdemo
+# Object build statements for EXECUTABLE target NAI
 
 
 #############################################
-# Order-only phony target for ocvdemo
+# Order-only phony target for NAI
 
-build cmake_object_order_depends_target_ocvdemo: phony || CMakeFiles/ocvdemo.dir
+build cmake_object_order_depends_target_NAI: phony || CMakeFiles/NAI.dir
 
-build CMakeFiles/ocvdemo.dir/main.cpp.obj: CXX_COMPILER__ocvdemo_Debug C$:/Users/s23538/Documents/NAI-Lab02/NAI/main.cpp || cmake_object_order_depends_target_ocvdemo
-  DEP_FILE = CMakeFiles\ocvdemo.dir\main.cpp.obj.d
-  FLAGS = -g
-  INCLUDES = -isystem C:/Users/s23538/Documents/OpenCV/cmake-build-release -isystem C:/Users/s23538/Documents/OpenCV/include -isystem C:/Users/s23538/Documents/OpenCV/modules/core/include -isystem C:/Users/s23538/Documents/OpenCV/modules/flann/include -isystem C:/Users/s23538/Documents/OpenCV/modules/imgproc/include -isystem C:/Users/s23538/Documents/OpenCV/modules/ml/include -isystem C:/Users/s23538/Documents/OpenCV/modules/photo/include -isystem C:/Users/s23538/Documents/OpenCV/modules/dnn/include -isystem C:/Users/s23538/Documents/OpenCV/modules/features2d/include -isystem C:/Users/s23538/Documents/OpenCV/modules/imgcodecs/include -isystem C:/Users/s23538/Documents/OpenCV/modules/videoio/include -isystem C:/Users/s23538/Documents/OpenCV/modules/calib3d/include -isystem C:/Users/s23538/Documents/OpenCV/modules/highgui/include -isystem C:/Users/s23538/Documents/OpenCV/modules/objdetect/include -isystem C:/Users/s23538/Documents/OpenCV/modules/stitching/include -isystem C:/Users/s23538/Documents/OpenCV/modules/ts/include -isystem C:/Users/s23538/Documents/OpenCV/modules/video/include -isystem C:/Users/s23538/Documents/OpenCV/modules/gapi/include
-  OBJECT_DIR = CMakeFiles\ocvdemo.dir
-  OBJECT_FILE_DIR = CMakeFiles\ocvdemo.dir
+build CMakeFiles/NAI.dir/main.cpp.obj: CXX_COMPILER__NAI_Debug D$:/04.$ Studia/NAI/main.cpp || cmake_object_order_depends_target_NAI
+  DEP_FILE = CMakeFiles\NAI.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -isystem D:/openCV/cmake-build-release -isystem D:/openCV/include -isystem D:/openCV/modules/core/include -isystem D:/openCV/modules/flann/include -isystem D:/openCV/modules/imgproc/include -isystem D:/openCV/modules/ml/include -isystem D:/openCV/modules/photo/include -isystem D:/openCV/modules/dnn/include -isystem D:/openCV/modules/features2d/include -isystem D:/openCV/modules/imgcodecs/include -isystem D:/openCV/modules/videoio/include -isystem D:/openCV/modules/calib3d/include -isystem D:/openCV/modules/highgui/include -isystem D:/openCV/modules/objdetect/include -isystem D:/openCV/modules/stitching/include -isystem D:/openCV/modules/ts/include -isystem D:/openCV/modules/video/include -isystem D:/openCV/modules/gapi/include
+  OBJECT_DIR = CMakeFiles\NAI.dir
+  OBJECT_FILE_DIR = CMakeFiles\NAI.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ocvdemo
+# Link build statements for EXECUTABLE target NAI
 
 
 #############################################
-# Link the executable ocvdemo.exe
+# Link the executable NAI.exe
 
-build ocvdemo.exe: CXX_EXECUTABLE_LINKER__ocvdemo_Debug CMakeFiles/ocvdemo.dir/main.cpp.obj | C$:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_highgui460.dll.a C$:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_videoio460.dll.a C$:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_imgcodecs460.dll.a C$:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_imgproc460.dll.a C$:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_core460.dll.a
+build NAI.exe: CXX_EXECUTABLE_LINKER__NAI_Debug CMakeFiles/NAI.dir/main.cpp.obj | D$:/openCV/cmake-build-release/lib/libopencv_highgui460.dll.a D$:/openCV/cmake-build-release/lib/libopencv_videoio460.dll.a D$:/openCV/cmake-build-release/lib/libopencv_imgcodecs460.dll.a D$:/openCV/cmake-build-release/lib/libopencv_imgproc460.dll.a D$:/openCV/cmake-build-release/lib/libopencv_core460.dll.a
   FLAGS = -g
-  LINK_LIBRARIES = C:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_highgui460.dll.a  C:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_videoio460.dll.a  C:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_imgcodecs460.dll.a  C:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_imgproc460.dll.a  C:/Users/s23538/Documents/OpenCV/cmake-build-release/lib/libopencv_core460.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ocvdemo.dir
+  LINK_LIBRARIES = D:/openCV/cmake-build-release/lib/libopencv_highgui460.dll.a  D:/openCV/cmake-build-release/lib/libopencv_videoio460.dll.a  D:/openCV/cmake-build-release/lib/libopencv_imgcodecs460.dll.a  D:/openCV/cmake-build-release/lib/libopencv_imgproc460.dll.a  D:/openCV/cmake-build-release/lib/libopencv_core460.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NAI.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ocvdemo.exe
-  TARGET_IMPLIB = libocvdemo.dll.a
-  TARGET_PDB = ocvdemo.exe.dbg
+  TARGET_FILE = NAI.exe
+  TARGET_IMPLIB = libNAI.dll.a
+  TARGET_PDB = NAI.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\s23538\Documents\NAI-Lab02\NAI\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\04. Studia\NAI\cmake-build-debug" && C:\Users\canal\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +90,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\s23538\Documents\NAI-Lab02\NAI\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\s23538\Documents\NAI-Lab02\NAI -BC:\Users\s23538\Documents\NAI-Lab02\NAI\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "D:\04. Studia\NAI\cmake-build-debug" && C:\Users\canal\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\04. Studia\NAI" -B"D:\04. Studia\NAI\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ocvdemo: phony ocvdemo.exe
+build NAI: phony NAI.exe
 
 # =============================================================================
 # Folder targets.
@@ -108,9 +108,9 @@ build ocvdemo: phony ocvdemo.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/s23538/Documents/NAI-Lab02/NAI/cmake-build-debug
+# Folder: D:/04. Studia/NAI/cmake-build-debug
 
-build all: phony ocvdemo.exe
+build all: phony NAI.exe
 
 # =============================================================================
 # Built-in targets
@@ -119,14 +119,14 @@ build all: phony ocvdemo.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVConfig-version.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVConfig.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/openCV/cmake-build-release/OpenCVConfig-version.cmake D$:/openCV/cmake-build-release/OpenCVConfig.cmake D$:/openCV/cmake-build-release/OpenCVModules.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVConfig-version.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVConfig.cmake C$:/Users/s23538/Documents/OpenCV/cmake-build-release/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/canal/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/openCV/cmake-build-release/OpenCVConfig-version.cmake D$:/openCV/cmake-build-release/OpenCVConfig.cmake D$:/openCV/cmake-build-release/OpenCVModules.cmake: phony
 
 
 #############################################

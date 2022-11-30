@@ -16,8 +16,8 @@ int main(int argc, char** argv)
         std::cout << "frame info: " << frame.rows << " " << frame.cols << std::endl;
         flip(frame, frame, 1);
 //        imwrite("frame" + std::to_string(i++) + ".png", frame);
-//         (this does not work on Windows)
-         cv::imshow("Frame", frame);
+//        (this does not work on Windows)
+        cv::imshow("Frame", frame);
 
     }
     return 0;
